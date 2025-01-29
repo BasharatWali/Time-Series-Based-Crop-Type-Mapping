@@ -11,6 +11,6 @@ Data and Study Area
 
 Data Acquisition and Preprocessing
 1. Sentinel Hub: Satellite imagery was sourced and preprocessed to minimize effects of cloud cover, atmospheric distortions, and varying illumination conditions.
-2. Temporal Stacking: Each pixel’s reflectance values for the 6 monthly time slices were stacked, creating a 4D dataset (time×height×width×bands)(time×height×width×bands).
+2. Temporal Stacking: Each pixel’s reflectance values for the 6 monthly time slices were stacked, creating a 4D dataset (time×height×width×bands).
 3. Labeling: Ground-truth data for crop types were collected from official agricultural databases and field surveys. Masks delineating different crop types were generated and aligned with the satellite data.
 4. Patch Creation: To train the U-Net, the large satellite scenes were divided into smaller patches (e.g., 64×64 pixels), with each patch retaining the 6 monthly time slices.
