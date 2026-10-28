@@ -1,0 +1,16 @@
+# Inferred from the notebook imports. Versions were not recorded in the original
+# environment (Google Colab, Python 3.10), so none are pinned.
+# The notebook also runs `pip install gdal`, but GDAL is never imported directly;
+# rasterio wheels ship with their own GDAL build.
+tensorflow
+sentinelhub
+rasterio
+numpy
+matplotlib
+opencv-python
+pillow
+tifffile
+natsort
+patchify
+scipy
+scikit-image
